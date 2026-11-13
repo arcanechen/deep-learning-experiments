@@ -1,0 +1,57 @@
+{
+  "stage": "training_evaluation_verified",
+  "formal_training_completed": 9,
+  "formal_training_planned": 9,
+  "test_completed": 9,
+  "baselines_evaluated": 3,
+  "running_process": false,
+  "runs": [
+    {
+      "run": "gru_s42",
+      "epoch": 20,
+      "best_epoch": 2
+    },
+    {
+      "run": "gru_s43",
+      "epoch": 20,
+      "best_epoch": 1
+    },
+    {
+      "run": "gru_s44",
+      "epoch": 20,
+      "best_epoch": 2
+    },
+    {
+      "run": "lstm_s42",
+      "epoch": 20,
+      "best_epoch": 3
+    },
+    {
+      "run": "lstm_s43",
+      "epoch": 20,
+      "best_epoch": 1
+    },
+    {
+      "run": "lstm_s44",
+      "epoch": 20,
+      "best_epoch": 1
+    },
+    {
+      "run": "rnn_s42",
+      "epoch": 20,
+      "best_epoch": 6
+    },
+    {
+      "run": "rnn_s43",
+      "epoch": 20,
+      "best_epoch": 11
+    },
+    {
+      "run": "rnn_s44",
+      "epoch": 20,
+      "best_epoch": 17
+    }
+  ],
+  "recorded_at": "2026-11-01",
+  "next": "Student information, personal reflection, teacher format, and learning walkthrough; no mandatory retraining"
+}

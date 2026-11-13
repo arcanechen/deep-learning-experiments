@@ -1,0 +1,11 @@
+{
+  "dataset": "CASIA-HWDB1.1 self-selected 10 classes",
+  "version": "hwdb10-v1",
+  "classes": ["日", "月", "山", "水", "火", "木", "土", "田", "人", "中"],
+  "selection_reason": "Fixed common Chinese characters with varied stroke counts and structures, including visually similar 日/田. Chosen before inspecting model performance; not the course's original subset.",
+  "split_seed": 2026,
+  "validation_writer_fraction": 0.1,
+  "image_preprocessing": "Preserve grayscale and aspect ratio; center on a white square with 10% margin per side; resize to 64x64 using bilinear interpolation. Existing training pipeline further resizes to 32x32.",
+  "official_train_writers_expected": 240,
+  "official_test_writers_expected": 60
+}

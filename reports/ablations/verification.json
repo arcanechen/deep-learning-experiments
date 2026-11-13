@@ -1,0 +1,13 @@
+{
+  "verified_runs": 33,
+  "missing": [],
+  "checks": [
+    "frozen plan",
+    "common split",
+    "validation selection",
+    "epoch budget",
+    "actual updates",
+    "checkpoint hash",
+    "predictions -> accuracy/F1/confusion matrix"
+  ]
+}

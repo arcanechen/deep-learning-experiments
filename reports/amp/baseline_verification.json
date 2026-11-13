@@ -1,0 +1,12 @@
+{
+  "verified_runs": 15,
+  "missing_runs": [],
+  "checks": [
+    "predictions -> accuracy",
+    "predictions -> Macro-F1",
+    "confusion matrices",
+    "validation loss -> selected epoch",
+    "fixed recipe",
+    "same data split within each dataset"
+  ]
+}

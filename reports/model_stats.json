@@ -1,0 +1,36 @@
+{
+  "input": [
+    1,
+    1,
+    32,
+    32
+  ],
+  "scope": "Conv2d and Linear MACs only; excludes BN, activation, pooling, bias, backward and optimizer; not measured latency",
+  "models": [
+    {
+      "model": "mlp",
+      "parameters": 296586,
+      "conv_linear_macs_per_image": 296192
+    },
+    {
+      "model": "lenet",
+      "parameters": 61706,
+      "conv_linear_macs_per_image": 416520
+    },
+    {
+      "model": "alexnet",
+      "parameters": 57022154,
+      "conv_linear_macs_per_image": 850804736
+    },
+    {
+      "model": "googlenet",
+      "parameters": 5601322,
+      "conv_linear_macs_per_image": 1449863168
+    },
+    {
+      "model": "resnet18",
+      "parameters": 11172810,
+      "conv_linear_macs_per_image": 554243072
+    }
+  ]
+}

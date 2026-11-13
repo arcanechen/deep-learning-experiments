@@ -1,0 +1,22 @@
+{
+  "verified_runs": 6,
+  "missing_runs": [
+    "mnist/alexnet",
+    "mnist/googlenet",
+    "mnist/resnet18",
+    "fashion_mnist/alexnet",
+    "fashion_mnist/googlenet",
+    "fashion_mnist/resnet18",
+    "hwdb10/alexnet",
+    "hwdb10/googlenet",
+    "hwdb10/resnet18"
+  ],
+  "checks": [
+    "predictions -> accuracy",
+    "predictions -> Macro-F1",
+    "confusion matrices",
+    "validation loss -> selected epoch",
+    "fixed recipe",
+    "same data split within each dataset"
+  ]
+}

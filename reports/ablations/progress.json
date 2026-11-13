@@ -1,0 +1,339 @@
+{
+  "updated_at": "2026-10-31T12:52:35.885048+08:00",
+  "phase": "complete",
+  "planned_runs": 33,
+  "trained_runs": 33,
+  "tested_runs": 33,
+  "runs": [
+    {
+      "config": "d1_w32_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 12,
+      "best_val_loss": 0.2293985595703125,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d1_w48_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 12,
+      "best_val_loss": 0.21508612060546875,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w16_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.2258082275390625,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w27_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.23071303304036458,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b32",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 5,
+      "best_val_loss": 0.20058365885416668,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b64",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 5,
+      "best_val_loss": 0.20848319498697918,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.22601116943359376,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b256",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.21903963216145833,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w64_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 7,
+      "best_val_loss": 0.2017396443684896,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w21_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 16,
+      "best_val_loss": 0.22640110270182293,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w32_b128",
+      "seed": 42,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 5,
+      "best_val_loss": 0.1915577392578125,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d1_w32_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 17,
+      "best_val_loss": 0.23055173746744792,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d1_w48_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 9,
+      "best_val_loss": 0.23019378662109374,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w16_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.21815891520182293,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w27_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 7,
+      "best_val_loss": 0.22029154459635417,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b32",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 7,
+      "best_val_loss": 0.19053763834635418,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b64",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.19847859700520834,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 11,
+      "best_val_loss": 0.23280735270182293,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b256",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 3,
+      "best_val_loss": 0.23980255126953126,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w64_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 7,
+      "best_val_loss": 0.20411893717447915,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w21_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 9,
+      "best_val_loss": 0.2070923055013021,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w32_b128",
+      "seed": 43,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.20671673583984376,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d1_w32_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 12,
+      "best_val_loss": 0.24456046549479166,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d1_w48_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 16,
+      "best_val_loss": 0.22439322916666668,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w16_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.22964068603515625,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w27_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.2229837849934896,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b32",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 6,
+      "best_val_loss": 0.18352787272135418,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b64",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.18888230387369792,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.2134688720703125,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w32_b256",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 8,
+      "best_val_loss": 0.2193502197265625,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d2_w64_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 6,
+      "best_val_loss": 0.2125684814453125,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w21_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 5,
+      "best_val_loss": 0.23126383463541667,
+      "trained": true,
+      "tested": true
+    },
+    {
+      "config": "d3_w32_b128",
+      "seed": 44,
+      "epoch": 20,
+      "total_epochs": 20,
+      "best_epoch": 10,
+      "best_val_loss": 0.22030183919270832,
+      "trained": true,
+      "tested": true
+    }
+  ]
+}

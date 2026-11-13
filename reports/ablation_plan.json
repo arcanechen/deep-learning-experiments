@@ -1,0 +1,173 @@
+{
+  "status": "PLANNED_NOT_TRAINED",
+  "dataset": "fashion_mnist",
+  "split_seed": 2026,
+  "train_size": 54000,
+  "val_size": 6000,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 20,
+  "lr": 0.001,
+  "optimizer": "Adam",
+  "weight_decay": 0.0,
+  "precision": "amp_float16",
+  "selection": "minimum validation cross-entropy",
+  "unique_configurations": 11,
+  "planned_runs": 33,
+  "notes": [
+    "Shared configurations are reused across groups, not trained twice.",
+    "Fixed epochs do not imply fixed optimizer update counts.",
+    "AMP may skip optimizer updates on non-finite gradients; log actual steps when executed.",
+    "No test-based configuration selection."
+  ],
+  "configurations": [
+    {
+      "id": "d1_w32_b128",
+      "depth_per_stage": 1,
+      "conv_layers": 3,
+      "width": 32,
+      "batch_size": 128,
+      "parameters": 94186,
+      "groups": [
+        "depth"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d1_w48_b128",
+      "depth_per_stage": 1,
+      "conv_layers": 3,
+      "width": 48,
+      "batch_size": 128,
+      "parameters": 210394,
+      "groups": [
+        "matched_parameters"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d2_w16_b128",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 16,
+      "batch_size": 128,
+      "parameters": 72666,
+      "groups": [
+        "width"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d2_w27_b128",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 27,
+      "batch_size": 128,
+      "parameters": 205480,
+      "groups": [
+        "matched_parameters"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d2_w32_b32",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 32,
+      "batch_size": 32,
+      "parameters": 288170,
+      "groups": [
+        "batch"
+      ],
+      "batches_per_epoch": 1688,
+      "planned_optimizer_steps": 33760
+    },
+    {
+      "id": "d2_w32_b64",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 32,
+      "batch_size": 64,
+      "parameters": 288170,
+      "groups": [
+        "batch"
+      ],
+      "batches_per_epoch": 844,
+      "planned_optimizer_steps": 16880
+    },
+    {
+      "id": "d2_w32_b128",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 32,
+      "batch_size": 128,
+      "parameters": 288170,
+      "groups": [
+        "depth",
+        "width",
+        "batch"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d2_w32_b256",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 32,
+      "batch_size": 256,
+      "parameters": 288170,
+      "groups": [
+        "batch"
+      ],
+      "batches_per_epoch": 211,
+      "planned_optimizer_steps": 4220
+    },
+    {
+      "id": "d2_w64_b128",
+      "depth_per_stage": 2,
+      "conv_layers": 6,
+      "width": 64,
+      "batch_size": 128,
+      "parameters": 1147722,
+      "groups": [
+        "width"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d3_w21_b128",
+      "depth_per_stage": 3,
+      "conv_layers": 9,
+      "width": 21,
+      "batch_size": 128,
+      "parameters": 208309,
+      "groups": [
+        "matched_parameters"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    },
+    {
+      "id": "d3_w32_b128",
+      "depth_per_stage": 3,
+      "conv_layers": 9,
+      "width": 32,
+      "batch_size": 128,
+      "parameters": 482154,
+      "groups": [
+        "depth"
+      ],
+      "batches_per_epoch": 422,
+      "planned_optimizer_steps": 8440
+    }
+  ]
+}

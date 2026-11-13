@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "All window boundaries and missingness checked; three optimizer steps per model on one training batch; NOT formal training",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "input_shape": [
+    32,
+    168,
+    19
+  ],
+  "target_shape": [
+    32,
+    168
+  ],
+  "models": {
+    "rnn": {
+      "parameters": 16360,
+      "three_training_batch_losses": [
+        3.736664295196533,
+        3.608625888824463,
+        3.4790563583374023
+      ]
+    },
+    "gru": {
+      "parameters": 27240,
+      "three_training_batch_losses": [
+        3.796764612197876,
+        3.68269419670105,
+        3.5723187923431396
+      ]
+    },
+    "lstm": {
+      "parameters": 32680,
+      "three_training_batch_losses": [
+        3.6626343727111816,
+        3.597877264022827,
+        3.5351431369781494
+      ]
+    }
+  },
+  "prepared_sha256": "e64ecb6330a521d966594d7b8b41b7e18a03d57afe5142264b59848588e555ff"
+}

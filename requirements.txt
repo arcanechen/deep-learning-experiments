@@ -1,0 +1,9 @@
+# Install torch and torchvision for your platform using PyTorch's official selector.
+# Versions used in the original experiment are recorded in environment-lock.txt.
+torch
+torchvision
+numpy
+pandas
+Pillow
+matplotlib
+requests

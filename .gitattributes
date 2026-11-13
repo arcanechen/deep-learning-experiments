@@ -1,0 +1,6 @@
+# Preserve original source bytes: training checkpoints verify source SHA-256.
+# Automatic line-ending conversion would invalidate those fingerprints.
+* -text
+*.pdf binary
+*.docx binary
+*.png binary

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "lock_guard": "passed",
+  "checks": [
+    {
+      "device": "cpu",
+      "model": "rnn",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    },
+    {
+      "device": "cpu",
+      "model": "gru",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    },
+    {
+      "device": "cpu",
+      "model": "lstm",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    },
+    {
+      "device": "cuda",
+      "model": "rnn",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    },
+    {
+      "device": "cuda",
+      "model": "gru",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    },
+    {
+      "device": "cuda",
+      "model": "lstm",
+      "bitwise_resume": "passed",
+      "config_guard": "passed"
+    }
+  ],
+  "scope": "2 epochs synthetic data, same-process model reconstruction + disk reload; exact weights/optimizer/RNG/loss match; not cross-device reproducibility"
+}
